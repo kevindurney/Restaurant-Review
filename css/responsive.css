@@ -1,0 +1,74 @@
+@media screen and (min-width: 800px) {
+    #restaurants-list li{
+        margin: auto;
+        width: 36%;
+    }
+
+    #restaurant-name {
+        font-size: 3em;
+    }
+
+    #reviews-container h2 {
+        font-size: 3em;
+    }
+
+    #restaurant-cuisine {
+        font-size: 2em;
+    }
+
+    #restaurant-address {
+        font-size: 1.5em;
+    }
+
+    #restaurant-hours {
+        font-size: 1.5em;
+    }
+
+    .reviews-words {
+        font-size: 1.5em;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+    #header-header {
+        padding-top: 5px;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .inside #map-container {
+        height: 95.5vh;
+        width:50%;
+        position: fixed;
+    }
+    .inside header {
+        position: fixed;
+        width: 100%;
+        z-index: 1000;
+    }
+
+    #restaurant-container {
+        padding-top: 150px;
+    }
+
+    #restaurant-container, #reviews-container {
+        width: 40%;
+        height: 100%;
+    }
+
+    .inside .leaflet-control-zoom.leaflet-bar.leaflet-control{
+        padding-top: 50px;
+        border-style: none;
+    }
+
+    .inside #footer {
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1500px) {
+    .inside #footer {
+        width: 50%;
+    }
+}
